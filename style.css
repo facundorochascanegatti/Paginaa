@@ -1,0 +1,114 @@
+.Titulo{
+        background-color: black;
+        color: white;
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;        
+        line-height: 1.6;
+
+        width: 600px;
+        padding: 20px;
+        margin: 20px auto;
+
+        border-radius: 12px;
+        border: 1px solid #333;
+
+        text-align: center;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.Caracteristicas{
+        background-color: black;
+        color: white;
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+
+        width: 500px;
+        padding: 20px;   
+        margin: 20px auto;
+
+        border-radius: 12px;
+        border: 1px solid #333;
+
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.Descripcion{
+
+        background-color: black;
+        color: white;
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+
+        border-radius: 10px;
+        border: 1px solid #333;
+
+        box-shadow: 0 0 15px rgba(253, 253, 253, 0.5);
+       text-align: center;
+
+        width: 250px;
+        padding: 20px;
+        margin: 20px auto;
+
+}
+
+.imagen{
+
+        box-shadow: 0 0 15px white;
+        border-radius: 10px;
+        
+        display: block;
+        margin: 0 auto;
+        width: 250px;
+
+}
+
+body{
+        margin: 20px;
+        border: 4px solid #76b900;
+        border-radius: 15px;
+        min-height: 100vh;
+        box-sizing: border-box;
+        background-color: gray;
+        box-shadow: 0 0 15px rgba(253, 253, 253, 0.5);
+}
+
+.logo {
+        width: 90px;
+        height: auto;
+        margin: 20px;
+
+        top: 10px;
+        left: 10px;
+
+}
+
+.barra{
+        background-color: black;
+        border-bottom: 3px solid #76b900;
+
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        border-radius: 0 0 12px 12px;
+        border: 1px solid #333;
+
+}
+
+.barra button{
+        background-color: #76b900;
+        color: black;
+
+        border: none;
+        border-radius: 8px;
+
+        padding: 10px 20px;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 0 0 10px rgba(118, 185, 0, 0.5);
+}
