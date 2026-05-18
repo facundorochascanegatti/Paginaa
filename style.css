@@ -17,7 +17,7 @@
         box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
-.Caracteristicas{
+.Lista{
         background-color: black;
         color: white;
 
@@ -109,4 +109,54 @@ body{
         cursor: pointer;
         font-weight: bold;
         box-shadow: 0 0 10px rgba(118, 185, 0, 0.5);
+}
+
+.video{
+        display: block;
+        margin: 20px auto;
+        width: 560px;
+        height: 315px;
+
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(253, 253, 253, 0.5);
+}
+
+a{
+        display: block;
+        text-align: center;
+        margin: 20px auto;
+        width: 150px;
+
+        font-family: 'montserrat', sans-serif;
+        border: none;
+        border-radius: 18px;
+}
+
+.boton{
+        background-color: #76b900;
+        color: black;
+
+        border: none;
+        border-radius: 8px;
+
+        padding: 10px 20px;
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: 0 0 10px rgba(118, 185, 0, 0.5);
+}
+
+.h1{
+
+        font-family: 'montserrat', sans-serif;
+        color: #76b900;
+        text-shadow: 0 0 10px rgba(118, 185, 0, 0.5);
+        border: none;
+        border-radius: 18px;
+
+
+
+}.contenedor{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
 }
