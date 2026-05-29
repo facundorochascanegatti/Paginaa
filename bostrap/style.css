@@ -1,0 +1,71 @@
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(255, 131, 30);
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 100%;
+}
+.container div {
+  background-color: #fdf6ec;
+  padding: 10px;
+  border-radius: 10px;
+  border: 4px #a0876a solid;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1 {
+    font-family: 'oswald', sans-serif;
+    text-align: center;
+    color: #3b2f2f;
+}
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 700px;
+    margin: 20px auto;
+}
+.carrusel-item img {
+
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+.formulario {
+    margin: 20px auto;
+    border: 4px #a0876a solid;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 50px;
+    position: relative;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 20px auto;
+}
+body {
+
+    background-color: #fdf6ec;
+    color: #2c2c2c;
+    font-family: 'oswald', sans-serif;
+}
+
+h5 {
+    font-family: 'oswald', sans-serif;
+    color: #3b2f2f;
+}
